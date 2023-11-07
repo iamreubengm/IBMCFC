@@ -46,7 +46,7 @@ See(k) Help is built on the principle of inclusivity. By failing to consider the
 <p align="center">Available Languages</p>  
 
 ### Video Demo  
-[Watch the Demo](https://img.youtube.com/vi/P_XU4UL041Y/maxresdefault.jpg)(https://www.youtube.com/watch?v=P_XU4UL041Y)    
+[![Watch the Demo](https://img.youtube.com/vi/P_XU4UL041Y/maxresdefault.jpg)](https://www.youtube.com/watch?v=P_XU4UL041Y)     
 
 ### Steps to Run the Project:
 ```
