@@ -44,7 +44,7 @@ See(k) Help is built on the principle of inclusivity. By failing to consider the
 ![Simple Layout For Easy Access](media/Screenshot%20(159).png) 
 <p align="center">Simple Layout For Easy Access<p align="center">  
 
-![Available Languages](media/Screenshot%20(161).png)
+<img src ="media/Screenshot (161).png">
 <p align="center">Available Languages<p align="center">  
 
 ### Video Demo  
