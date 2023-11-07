@@ -42,10 +42,10 @@ See(k) Help is built on the principle of inclusivity. By failing to consider the
 
 ### Screenshots
 ![Simple Layout For Easy Access](media/Screenshot%20(159).png) 
-<p align="center">Simple Layout For Easy Access<p align="center">  
+<p align="center">Simple Layout For Easy Access</p>  
 
 <img src ="media/Screenshot (161).png">
-<p align="center">Available Languages<p align="center">  
+<p align="center">Available Languages</p>  
 
 ### Video Demo  
 Click [here](https://www.youtube.com/watch?v=P_XU4UL041Y) for a demo of the application.    
