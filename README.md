@@ -1,4 +1,4 @@
-### IBM Crack The Covid-19 Crisis
+### See(k) Help - IBM Crack The Covid-19 Crisis
 <img src ="media/VideoTitle.jpg"> 
 
 ### A Brief Overview
@@ -38,17 +38,17 @@ Machine learning along with Artificial Intelligence is redefining our future and
 See(k) Help is built on the principle of inclusivity. By failing to consider the needs of those different to ourselves, we will not be able to create a welcoming platform for everyone. After analysing the key issues at the intersection, we aim to promote and develop accessible technologies for all our users across platforms.  
 
 ### Architecture Diagram
-<img src ="media/Arch2.jpg">
+![Architecture Diagram](media/Arch2.jpg)
 
 ### Screenshots
-<img src ="media/Screenshot (159).png">
+![Simple Layout For Easy Access](media/Screenshot%20(159).png) 
 <p align="center">Simple Layout For Easy Access<p align="center">  
 
-<img src ="media/Screenshot (161).png">
+![Available Languages](media/Screenshot%20(161).png)
 <p align="center">Available Languages<p align="center">  
 
 ### Video Demo  
-Click [here](https://www.youtube.com/watch?v=P_XU4UL041Y) for a demo of the app.    
+Click [here](https://www.youtube.com/watch?v=P_XU4UL041Y) for a demo of the application.    
 
 ### Steps to Run the Project:
 ```
