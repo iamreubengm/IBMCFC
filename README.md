@@ -2,7 +2,7 @@
 <img src ="media/VideoTitle.jpg"> 
 
 ### A Brief Overview
-The COVID-19 Pandemic is considered as one of the biggest global health calamities of the century and the greatest challenge that humankind has faced since the 2nd World War. The current outbreak of COVID-19 has affected over 5,408,185 people and killed more than 344,041 people in more than 200 countries throughout the world as on 24th May, 2020. The virus has rapidly spread around the world, posing enormous health, economic, environmental, social challenges to the entire human population, while also severely disrupting the global economy.  
+The COVID-19 Pandemic was one of the biggest global health calamities of the century. The virus rapidly spread around the world, posing enormous health, economic, environmental, social challenges to the entire human population, while also severely disrupting the global economy.  
 
 While talking about the problems faced by the world population, we often forget to consider the ones that are the most affected by the current situation, the blind and the visually impaired. The World Health Organization estimates that there are over **2.2 Billion people with some form of visual impairment.** In most countries, blind people are not classified as ‘clinically extremely vulnerable’ and are automatically not entitled to food parcels, priority supermarket deliveries or help with basic care needs.  
 
@@ -12,7 +12,7 @@ While talking about the problems faced by the world population, we often forget 
 
 •	At home, people who can’t see well and live alone face challenges in reading use-by dates, checking cooking instructions on a food packet, or making sure they’re taking the right dose of medication.  
 
-Our aim and objectives are to provide help for the visually impaired community by means of an app. It’s rare to find someone that isn’t glued to their smartphone these days. With that dependence on technology, we may help many find independence for themselves. We’ve created an application designed to help the blind and visually impaired identify objects they encounter in their daily lives. **Simply take a photo of anything, at any angle and you’ll hear the app identify and speak back the scene in front of you!** 
+Our aim and objectives are to provide help for the visually impaired community by means of an app. We’ve created an application designed to help the blind and visually impaired identify objects they encounter in their daily lives. **Simply take a photo of anything, at any angle and you’ll hear the app identify and speak back the scene in front of you!** 
 
 ### Description
 See(k) Help is an application intricately designed for the blind and the visually impaired. Be it a phone, tablet or a PC, our app utilizes the device’s camera and text-to-speech functionalities to take a picture of anything that the user points at, generate a caption of the objects in the picture and read it out loud, in the language of the user’s choice.   
@@ -21,8 +21,6 @@ Included in the solution is a **self-trained Image Captioning Model**. The datas
 The model includes an **Inception-based CNN** to identify the objects in the frame and an **LSTM Neural Network** to generate the caption. We also use a language model, **GloVe Embeddings** to generate the caption with the correct Semantics. This ensures the result would be easily decipherable by the user, and not just a set of objects.   
 
 A **web framework built with Flask** is used to link the API to the trained model which perceives the images and captions it. The result is sent to IBM’s Cloud based Text-To-Speech service which converts the generated caption to natural sounding audio, which is then played to the user. The inclusion of the IBM Language Translation service allows us to convert the generated caption which is in English to other languages, and then using the Text-To-Speech service, we can play the translated caption to the user.  
-
-For the sake of the demo, the web application has been used but this functionality can be easily extended to a mobile phone and its camera can be used to take real time photos, making it easier to utilize the features available.
 
 ### Rationale
 #### Flexibility
@@ -48,7 +46,7 @@ See(k) Help is built on the principle of inclusivity. By failing to consider the
 <p align="center">Available Languages</p>  
 
 ### Video Demo  
-Click [here](https://www.youtube.com/watch?v=P_XU4UL041Y) for a demo of the application.    
+[Watch the Demo](https://img.youtube.com/vi/P_XU4UL041Y/maxresdefault.jpg)(https://www.youtube.com/watch?v=P_XU4UL041Y)    
 
 ### Steps to Run the Project:
 ```
