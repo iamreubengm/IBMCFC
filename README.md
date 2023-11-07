@@ -1,24 +1,14 @@
 ### See(k) Help - IBM Crack The Covid-19 Crisis
-<img src ="media/VideoTitle.jpg"> 
 
 ### A Brief Overview
-The COVID-19 Pandemic was one of the biggest global health calamities of the century. The virus rapidly spread around the world, posing enormous health, economic, environmental, social challenges to the entire human population, while also severely disrupting the global economy.  
-
-While talking about the problems faced by the world population, we often forget to consider the ones that are the most affected by the current situation, the blind and the visually impaired. The World Health Organization estimates that there are over **2.2 Billion people with some form of visual impairment.** In most countries, blind people are not classified as ‘clinically extremely vulnerable’ and are automatically not entitled to food parcels, priority supermarket deliveries or help with basic care needs.  
-
-•	Braille readers need to touch packets to read labels. These techniques maintain independence in normal times. Now, though, many visually impaired people are concerned by **having to touch multiple items**, moving them closer to their eyes, and spending longer in a potentially virus-laden environment. The tactile sense which plays a vital role in their livelihood is being challenged by the virus.  
-
-•	Supermarkets usually allow a staff member to accompany a visually impaired person around the shop. Now, though, this would mean **spending more time in close contact with a potential asymptomatic carrier**.  
-
-•	At home, people who can’t see well and live alone face challenges in reading use-by dates, checking cooking instructions on a food packet, or making sure they’re taking the right dose of medication.  
+The COVID-19 pandemic, a significant global health crisis, has had widespread impacts on health, economy, and society, also destabilizing the global economy. Amidst these issues, the plight of over **2.2 billion people** with visual impairments is often overlooked. Despite their vulnerability, they frequently don't receive critical support such as food, priority services, or essential care. Visually impaired people face **increased health risks** from **touching items** to read Braille labels and from extended **close contact with potentially asymptomatic helpers** in supermarkets.  
 
 Our aim and objectives are to provide help for the visually impaired community by means of an app. We’ve created an application designed to help the blind and visually impaired identify objects they encounter in their daily lives. **Simply take a photo of anything, at any angle and you’ll hear the app identify and speak back the scene in front of you!** 
 
 ### Description
 See(k) Help is an application intricately designed for the blind and the visually impaired. Be it a phone, tablet or a PC, our app utilizes the device’s camera and text-to-speech functionalities to take a picture of anything that the user points at, generate a caption of the objects in the picture and read it out loud, in the language of the user’s choice.   
 
-Included in the solution is a **self-trained Image Captioning Model**. The dataset used to train the model is the Flickr30k Dataset. 
-The model includes an **Inception-based CNN** to identify the objects in the frame and an **LSTM Neural Network** to generate the caption. We also use a language model, **GloVe Embeddings** to generate the caption with the correct Semantics. This ensures the result would be easily decipherable by the user, and not just a set of objects.   
+Included in the solution is a **self-trained Image Captioning Model**. The dataset used to train the model is the Flickr30k Dataset. The model includes an **Inception-based CNN** to identify the objects in the frame and an **LSTM Neural Network** to generate the caption. We also use a language model, **GloVe Embeddings** to generate the caption with the correct Semantics. This ensures the result would be easily decipherable by the user, and not just a set of objects.   
 
 A **web framework built with Flask** is used to link the API to the trained model which perceives the images and captions it. The result is sent to IBM’s Cloud based Text-To-Speech service which converts the generated caption to natural sounding audio, which is then played to the user. The inclusion of the IBM Language Translation service allows us to convert the generated caption which is in English to other languages, and then using the Text-To-Speech service, we can play the translated caption to the user.  
 
